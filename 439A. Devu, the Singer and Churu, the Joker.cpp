@@ -20,24 +20,6 @@
 const int MAX_CHAR = 26;
 using namespace std;
 
-void sloved(){
-
-    int n, m;
-    cin >> n >> m;
-    int count = 0;
-    for(int i = (n+1)/2 ; i <= n ; i ++){
-
-        if(i%m == 0){
-            cout<<i<<endl;
-            return;
-        }
-
-    }
-
-   cout<<-1<<endl;
-
-}
-
 signed main() {
 #ifndef ONLINE_JUDGE
     freopen("input1.txt", "r", stdin);
